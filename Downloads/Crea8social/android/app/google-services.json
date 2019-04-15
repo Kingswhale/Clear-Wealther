@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "196366916633",
+    "firebase_url": "https://meetfaced-61b37.firebaseio.com",
+    "project_id": "meetfaced-61b37",
+    "storage_bucket": "meetfaced-61b37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196366916633:android:956310f764c59451",
+        "android_client_info": {
+          "package_name": "com.meetfaced.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196366916633-vb7pp5u3f3qas02u6itrvndauan9q870.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvBI1IWB8M_TqIB5ctAyh9preH3WSkqOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
