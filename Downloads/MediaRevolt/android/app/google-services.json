@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "252186093069",
+    "firebase_url": "https://mediarevolt-535eb.firebaseio.com",
+    "project_id": "mediarevolt-535eb",
+    "storage_bucket": "mediarevolt-535eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252186093069:android:d8cdd2c5cf8a70f3",
+        "android_client_info": {
+          "package_name": "com.mediarevolt.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGqsTRTu1mCXkqL4y6Cr9EEZHFx74YYdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252186093069-10plt1oqurd02jjl1ca7r1fqeniqibu0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "252186093069-on7k4b0jp2026amlehdumi47aitgcdl1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mediarevolt.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
