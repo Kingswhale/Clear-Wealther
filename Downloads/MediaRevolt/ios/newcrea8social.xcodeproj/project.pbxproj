@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -69,10 +70,6 @@
 		E570DB992102465700F41209 /* libRNShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E570DB982102461400F41209 /* libRNShare.a */; };
 		E570DB9B2102467B00F41209 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E570DB9A2102467B00F41209 /* Social.framework */; };
 		E570DB9D2102468B00F41209 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E570DB9C2102468B00F41209 /* MessageUI.framework */; };
-		E5885FD5211C6F4600EDF6D7 /* TwitterCore.framework in Resources */ = {isa = PBXBuildFile; fileRef = E5885FD1211C6F4500EDF6D7 /* TwitterCore.framework */; };
-		E5885FD8211C6F4600EDF6D7 /* TwitterKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = E5885FD4211C6F4600EDF6D7 /* TwitterKit.framework */; };
-		E5885FDA211C6F8600EDF6D7 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B872F5210DFD6300FA09E8 /* Twitter.framework */; };
-		E5886060211C98D200EDF6D7 /* libRNTwitterSignIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E588605F211C98A300EDF6D7 /* libRNTwitterSignIn.a */; };
 		E59B7B1F211B3D4800D461EA /* libRNAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E59B7B1E211B3D3900D461EA /* libRNAudio.a */; };
 		E5DA9FC5210F26370073A0AD /* libRNAdMobManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DA9FBC210F261F0073A0AD /* libRNAdMobManager.a */; };
 		E5E9D2262111F4980022C25E /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E9D1EB2111F4980022C25E /* GoogleUtilities.framework */; };
@@ -153,13 +150,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
-		};
-		18B72A842236DE1F00CB2567 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E5886059211C98A300EDF6D7 /* RNTwitterSignIn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D07E57241F07806700A7160F;
-			remoteInfo = RNTwitterSignIn;
 		};
 		18B730C02236F55400CB2567 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -434,13 +424,6 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNShare;
 		};
-		E588605E211C98A300EDF6D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E5886059211C98A300EDF6D7 /* RNTwitterSignIn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D07E57251F07806700A7160F;
-			remoteInfo = RNTwitterSignIn;
-		};
 		E59B7B1D211B3D3900D461EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E59B7B19211B3D3800D461EA /* RNAudio.xcodeproj */;
@@ -569,13 +552,7 @@
 		E570DB6B2102461300F41209 /* RNShare.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNShare.xcodeproj; path = "../node_modules/react-native-share/ios/RNShare.xcodeproj"; sourceTree = "<group>"; };
 		E570DB9A2102467B00F41209 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		E570DB9C2102468B00F41209 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		E5885FD1211C6F4500EDF6D7 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = "../../../Documents/Twitter-Kit-iOS/TwitterCore.framework"; sourceTree = "<group>"; };
-		E5885FD2211C6F4500EDF6D7 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = "../../../Documents/Twitter-Kit-iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle"; sourceTree = "<group>"; };
-		E5885FD3211C6F4500EDF6D7 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = "../../../Documents/Twitter-Kit-iOS/TwitterKit.framework/TwitterKitResources.bundle"; sourceTree = "<group>"; };
-		E5885FD4211C6F4600EDF6D7 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = "../../../Documents/Twitter-Kit-iOS/TwitterKit.framework"; sourceTree = "<group>"; };
-		E5886059211C98A300EDF6D7 /* RNTwitterSignIn.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNTwitterSignIn.xcodeproj; path = "../node_modules/react-native-twitter-signin/ios/RNTwitterSignIn.xcodeproj"; sourceTree = "<group>"; };
 		E59B7B19211B3D3800D461EA /* RNAudio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNAudio.xcodeproj; path = "../node_modules/react-native-audio/ios/RNAudio.xcodeproj"; sourceTree = "<group>"; };
-		E5B872F5210DFD6300FA09E8 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		E5DA9F8F210F261F0073A0AD /* RNAdMobManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNAdMobManager.xcodeproj; path = "../node_modules/react-native-admob/ios/RNAdMobManager.xcodeproj"; sourceTree = "<group>"; };
 		E5E9D1EB2111F4980022C25E /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "../node_modules/react-native-google-signin/ios/GoogleSdk/GoogleUtilities.framework"; sourceTree = "<group>"; };
 		E5E9D2212111F4980022C25E /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = "../node_modules/react-native-google-signin/ios/GoogleSdk/GoogleNetworkingUtilities.framework"; sourceTree = "<group>"; };
@@ -619,8 +596,6 @@
 				18BE7B902266096600081ED4 /* libRNFirebase.a in Frameworks */,
 				18BE7B912266096600081ED4 /* libRNI18n.a in Frameworks */,
 				18B72A832236DE0F00CB2567 /* libRNGoogleSignin.a in Frameworks */,
-				E5885FDA211C6F8600EDF6D7 /* Twitter.framework in Frameworks */,
-				E5886060211C98D200EDF6D7 /* libRNTwitterSignIn.a in Frameworks */,
 				E59B7B1F211B3D4800D461EA /* libRNAudio.a in Frameworks */,
 				E5E9D2262111F4980022C25E /* GoogleUtilities.framework in Frameworks */,
 				E5E9D2272111F4980022C25E /* GoogleNetworkingUtilities.framework in Frameworks */,
@@ -776,10 +751,6 @@
 			children = (
 				18605F2D2254EC8700C97DEF /* Base.lproj */,
 				18726EF22237B84E00E30A27 /* Images.xcassets */,
-				E5885FD3211C6F4500EDF6D7 /* TwitterKitResources.bundle */,
-				E5885FD2211C6F4500EDF6D7 /* TwitterShareExtensionUIResources.bundle */,
-				E5885FD1211C6F4500EDF6D7 /* TwitterCore.framework */,
-				E5885FD4211C6F4600EDF6D7 /* TwitterKit.framework */,
 				E5EB153321104BF1003213A2 /* GoogleService-Info.plist */,
 				E5EB1528210F697B003213A2 /* newcrea8social.entitlements */,
 				E524461C2107443600FB9141 /* GoogleService-Info.plist */,
@@ -849,7 +820,6 @@
 				E5E9D2242111F4980022C25E /* GoogleSignIn.framework */,
 				E5E9D2252111F4980022C25E /* GoogleSymbolUtilities.framework */,
 				E5E9D1EB2111F4980022C25E /* GoogleUtilities.framework */,
-				E5B872F5210DFD6300FA09E8 /* Twitter.framework */,
 				E5FD471C210CE2DF0026B8BC /* AccountKit.framework */,
 				E5FD471D210CE2DF0026B8BC /* Bolts.framework */,
 				E5FD4723210CE2E00026B8BC /* FBNotifications.framework */,
@@ -893,7 +863,6 @@
 			isa = PBXGroup;
 			children = (
 				18B730BC2236F55400CB2567 /* RCTFBSDK.xcodeproj */,
-				E5886059211C98A300EDF6D7 /* RNTwitterSignIn.xcodeproj */,
 				E59B7B19211B3D3800D461EA /* RNAudio.xcodeproj */,
 				E5EB1529210F93A8003213A2 /* RCTPushNotification.xcodeproj */,
 				E5DA9F8F210F261F0073A0AD /* RNAdMobManager.xcodeproj */,
@@ -1060,14 +1029,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E588605A211C98A300EDF6D7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E588605F211C98A300EDF6D7 /* libRNTwitterSignIn.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E59B7B1A211B3D3800D461EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1148,12 +1109,10 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				B9F18229F0758A796F12E5AF /* [CP] Copy Pods Resources */,
-				DEACE7D8B9FCF66506A89A3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18B72A852236DE1F00CB2567 /* PBXTargetDependency */,
 			);
 			name = newcrea8social;
 			productName = "Hello World";
@@ -1346,10 +1305,6 @@
 				{
 					ProductGroup = E5446BAD2108A86F00B24FA1 /* Products */;
 					ProjectRef = E5446BAC2108A86F00B24FA1 /* RNSound.xcodeproj */;
-				},
-				{
-					ProductGroup = E588605A211C98A300EDF6D7 /* Products */;
-					ProjectRef = E5886059211C98A300EDF6D7 /* RNTwitterSignIn.xcodeproj */;
 				},
 				{
 					ProductGroup = E5FD4716210CCFA00026B8BC /* Products */;
@@ -1689,13 +1644,6 @@
 			remoteRef = E570DB972102461400F41209 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E588605F211C98A300EDF6D7 /* libRNTwitterSignIn.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNTwitterSignIn.a;
-			remoteRef = E588605E211C98A300EDF6D7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		E59B7B1E211B3D3900D461EA /* libRNAudio.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1766,7 +1714,6 @@
 				2E014A65786A4CABA089FE49 /* Ionicons.ttf in Resources */,
 				C04A598D41F84BAE8F881F2C /* MaterialCommunityIcons.ttf in Resources */,
 				5BC9B032A66440529662725E /* MaterialIcons.ttf in Resources */,
-				E5885FD5211C6F4600EDF6D7 /* TwitterCore.framework in Resources */,
 				745EF40E41EB4639A0329CF7 /* Octicons.ttf in Resources */,
 				0986F868995D4197B1152389 /* Roboto_medium.ttf in Resources */,
 				18605F2E2254EC8700C97DEF /* Base.lproj in Resources */,
@@ -1777,7 +1724,6 @@
 				18726EF32237B84E00E30A27 /* Images.xcassets in Resources */,
 				492C7976F5344532A95BC67C /* Zocial.ttf in Resources */,
 				26F313B756A9400EAFB377B4 /* Feather.ttf in Resources */,
-				E5885FD8211C6F4600EDF6D7 /* TwitterKit.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1854,38 +1800,16 @@
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
 				"${PODS_ROOT}/RSKImageCropper/RSKImageCropper/RSKImageCropperStrings.bundle",
-				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSKImageCropperStrings.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-newcrea8social/Pods-newcrea8social-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DEACE7D8B9FCF66506A89A3E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-newcrea8social/Pods-newcrea8social-frameworks.sh",
-				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
-				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-newcrea8social/Pods-newcrea8social-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1932,11 +1856,6 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* newcrea8social */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-		18B72A852236DE1F00CB2567 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RNTwitterSignIn;
-			targetProxy = 18B72A842236DE1F00CB2567 /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

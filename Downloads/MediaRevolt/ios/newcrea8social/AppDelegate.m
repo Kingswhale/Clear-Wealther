@@ -11,8 +11,8 @@
 #import <React/RCTRootView.h>
 #import "RNSplashScreen.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <TwitterKit/TWTRKit.h>
-#import "RNTwitterSignIn.h"
+//#import <TwitterKit/TWTRKit.h>
+//#import "RNTwitterSignIn.h"
 #import "RNFirebaseNotifications.h"
 #import "RNFirebaseMessaging.h"
 #import "RNGoogleSignin.h"
@@ -64,7 +64,8 @@
                          openURL:url
                sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
                       annotation:options[UIApplicationOpenURLOptionsAnnotationKey]
-      ] || [[Twitter sharedInstance] application:application openURL:url options:options];
+      ];
+      //|| [[Twitter sharedInstance] application:application openURL:url options:options];
 }
 - (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings
 {

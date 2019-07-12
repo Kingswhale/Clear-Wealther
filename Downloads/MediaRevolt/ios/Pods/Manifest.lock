@@ -79,9 +79,6 @@ PODS:
     - React/Core
     - RSKImageCropper
   - RSKImageCropper (2.2.1)
-  - TwitterCore (3.2.0)
-  - TwitterKit (3.4.2):
-    - TwitterCore (>= 3.2.0)
   - yoga (0.56.0.React)
 
 DEPENDENCIES:
@@ -101,7 +98,6 @@ DEPENDENCIES:
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
   - RNImageCropPicker (from `../node_modules/react-native-image-crop-picker`)
-  - TwitterKit
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -119,8 +115,6 @@ SPEC REPOS:
     - Protobuf
     - QBImagePickerController
     - RSKImageCropper
-    - TwitterCore
-    - TwitterKit
 
 EXTERNAL SOURCES:
   React:
@@ -146,10 +140,8 @@ SPEC CHECKSUMS:
   React: bdb39c05e2eed10a43056cff89a68bc9ebe7f232
   RNImageCropPicker: a4c8db5757926bda8b04ba6796cc2a21cc6fd783
   RSKImageCropper: 98296ad26b41753f796b6898d015509598f13d97
-  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
-  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
   yoga: 2418c171de153cbe3c94dc28c3bf691b1695ae17
 
-PODFILE CHECKSUM: 748e1dc914dd859b7584684f9b314a70ffdf9367
+PODFILE CHECKSUM: a4fe4695fa2e3840a90e5a22edcc68598fce76b0
 
 COCOAPODS: 1.6.1

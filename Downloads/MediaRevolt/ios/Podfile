@@ -1,6 +1,6 @@
 platform :ios, '9.0'
 
-target ‘newMediaRevolt’ do
+target ‘newcrea8social’ do
   # this is very important to have!
   rn_path = '../node_modules/react-native'
   pod "yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
@@ -23,7 +23,6 @@ target ‘newMediaRevolt’ do
   pod 'Firebase/Messaging', '~> 5.3.0'
   pod 'Google-Mobile-Ads-SDK'
   pod 'GoogleSignIn'
-  pod 'TwitterKit'
 
 end
 
