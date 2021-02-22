@@ -8,7 +8,7 @@
     "postinstall": "sed -i '' 's/\\[headers\\[@\"Content-Length\"\\] unsignedIntValue\\]/\\[headers\\[@\"Content-Length\"\\] intValue\\]/' ./node_modules/react-native/React/Base/RCTMultipartStreamReader.m"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "eventing-bus": "^1.3.3",
     "formik": "^0.11.11",
     "frisbee": "^2.0.5",
